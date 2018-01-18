@@ -87,13 +87,13 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="POr-r9-3qf">
-                                <rect key="frame" x="16" y="457" width="343" height="163.5"/>
+                                <rect key="frame" x="16" y="457" width="343" height="164"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Videos Image" translatesAutoresizingMaskIntoConstraints="NO" id="9vi-mp-IaM">
-                                        <rect key="frame" x="0.0" y="0.0" width="164" height="163.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="164" height="164"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Code" translatesAutoresizingMaskIntoConstraints="NO" id="Srq-6n-Uf6">
-                                        <rect key="frame" x="179" y="0.0" width="164" height="163.5"/>
+                                        <rect key="frame" x="179" y="0.0" width="164" height="164"/>
                                     </imageView>
                                 </subviews>
                             </stackView>
@@ -115,6 +115,7 @@
                             <constraint firstItem="POr-r9-3qf" firstAttribute="top" secondItem="puS-qc-XiM" secondAttribute="bottom" constant="15" id="ZqY-wd-tan"/>
                             <constraint firstAttribute="trailingMargin" secondItem="POr-r9-3qf" secondAttribute="trailing" id="gVj-KL-LbL"/>
                             <constraint firstItem="kKp-su-j0e" firstAttribute="top" secondItem="Edt-Nf-Biz" secondAttribute="bottom" constant="-40" id="iWR-b2-x80"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="IfF-xD-gm6" secondAttribute="trailing" constant="20" symbolic="YES" id="ih8-u1-6sd"/>
                             <constraint firstAttribute="trailing" secondItem="Edt-Nf-Biz" secondAttribute="trailing" id="kIi-8Q-u8R"/>
                             <constraint firstItem="puS-qc-XiM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="lO6-QE-ohr"/>
                             <constraint firstItem="D5D-69-JW6" firstAttribute="top" secondItem="kKp-su-j0e" secondAttribute="bottom" constant="10" id="vWc-z7-wnk"/>
